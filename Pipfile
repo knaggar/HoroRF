@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ignite = "==1.1.0"
+joblib = "==1.5.3"
+matplotlib = "==3.10.8"
+numpy = "==2.4.1"
+pymanopt = "==2.2.1"
+scikit-learn = "==1.8.0"
+scipy = "==1.17.0"
+torch = "==2.9.1"
+pyyaml = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
